@@ -25,4 +25,6 @@ app.post('/todos',(req,res)=>{ //resource creation
 
 app.listen(3000,()=>{
   console.log('started on part 3000');
-})
+});
+
+module.exports = {app};
