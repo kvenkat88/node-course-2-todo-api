@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 const User = mongoose.model('User',{
   email: {
     type: String,
@@ -9,4 +10,4 @@ const User = mongoose.model('User',{
   }
 });
 
-module.exprorts = {User};
+module.exports = {User};
